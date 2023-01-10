@@ -1,0 +1,27 @@
+{
+  "name": "202301-w1ch2-dani-setien-jairo-vidomines",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigPeepo/202301-w1ch2-dani-setien-jairo-vidomines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigPeepo/202301-w1ch2-dani-setien-jairo-vidomines/issues"
+  },
+  "homepage": "https://github.com/bigPeepo/202301-w1ch2-dani-setien-jairo-vidomines#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
+  }
+}
